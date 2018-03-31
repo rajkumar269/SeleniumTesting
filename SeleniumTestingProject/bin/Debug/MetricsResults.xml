@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="11.0">
+  <Targets>
+    <Target Name="D:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\bin\Debug\AutomateTesting.dll">
+      <Modules>
+        <Module Name="AutomateTesting.dll" AssemblyVersion="1.0.0.0" FileVersion="1.0.0.0">
+          <Metrics>
+            <Metric Name="MaintainabilityIndex" Value="66" />
+            <Metric Name="CyclomaticComplexity" Value="142" />
+            <Metric Name="ClassCoupling" Value="63" />
+            <Metric Name="DepthOfInheritance" Value="1" />
+            <Metric Name="LinesOfCode" Value="344" />
+          </Metrics>
+          <Namespaces>
+            <Namespace Name="Setup">
+              <Metrics>
+                <Metric Name="MaintainabilityIndex" Value="66" />
+                <Metric Name="CyclomaticComplexity" Value="142" />
+                <Metric Name="ClassCoupling" Value="63" />
+                <Metric Name="DepthOfInheritance" Value="1" />
+                <Metric Name="LinesOfCode" Value="344" />
+              </Metrics>
+              <Types>
+                <Type Name="SetupClass">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="64" />
+                    <Metric Name="CyclomaticComplexity" Value="28" />
+                    <Metric Name="ClassCoupling" Value="28" />
+                    <Metric Name="DepthOfInheritance" Value="1" />
+                    <Metric Name="LinesOfCode" Value="90" />
+                  </Metrics>
+                  <Members>
+                    <Member Name="OutputDS.get() : DataSet" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\SetupClass.cs" Line="30">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="91" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="OutputDS.set(DataSet) : void" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\SetupClass.cs" Line="34">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="DS.get() : DataSet" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\SetupClass.cs" Line="41">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="91" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="DS.set(DataSet) : void" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\SetupClass.cs" Line="45">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="1" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="MasterPath.get() : string" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\SetupClass.cs" Line="53">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="91" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="MasterPath.set(string) : void" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\SetupClass.cs" Line="57">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="GetList() : List&lt;TestCaseSettingList&gt;" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\SetupClass.cs" Line="64">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="91" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="2" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ReadingValuesFromExcel() : void" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\SetupClass.cs" Line="72">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="43" />
+                        <Metric Name="CyclomaticComplexity" Value="10" />
+                        <Metric Name="ClassCoupling" Value="19" />
+                        <Metric Name="LinesOfCode" Value="37" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="SetProperties(DataSet, string) : void" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\SetupClass.cs" Line="145">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="70" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="5" />
+                        <Metric Name="LinesOfCode" Value="4" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="WriteResultsToExcel() : void" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\SetupClass.cs" Line="154">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="45" />
+                        <Metric Name="CyclomaticComplexity" Value="8" />
+                        <Metric Name="ClassCoupling" Value="11" />
+                        <Metric Name="LinesOfCode" Value="31" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="SetupClass()">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="100" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="SetupClass()" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\SetupClass.cs" Line="14">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="67" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="4" />
+                        <Metric Name="LinesOfCode" Value="6" />
+                      </Metrics>
+                    </Member>
+                  </Members>
+                </Type>
+                <Type Name="TestCaseSettingList">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="92" />
+                    <Metric Name="CyclomaticComplexity" Value="31" />
+                    <Metric Name="ClassCoupling" Value="0" />
+                    <Metric Name="DepthOfInheritance" Value="1" />
+                    <Metric Name="LinesOfCode" Value="50" />
+                  </Metrics>
+                  <Members>
+                    <Member Name="SheetName.get() : string" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\TestCaseSettingList.cs" Line="25">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="91" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="SheetName.set(string) : void" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\TestCaseSettingList.cs" Line="29">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="IsTestCasePassed.get() : bool" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\TestCaseSettingList.cs" Line="36">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="91" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="IsTestCasePassed.set(bool) : void" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\TestCaseSettingList.cs" Line="40">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ErrorValueSafari.get() : int" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\TestCaseSettingList.cs" Line="47">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="91" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ErrorValueSafari.set(int) : void" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\TestCaseSettingList.cs" Line="51">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ErrorValueMozilla.get() : int" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\TestCaseSettingList.cs" Line="58">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="91" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ErrorValueMozilla.set(int) : void" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\TestCaseSettingList.cs" Line="62">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ErrorValueChrome.get() : int" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\TestCaseSettingList.cs" Line="69">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="91" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ErrorValueChrome.set(int) : void" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\TestCaseSettingList.cs" Line="73">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ErrorValueIE.get() : int" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\TestCaseSettingList.cs" Line="80">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="91" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ErrorValueIE.set(int) : void" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\TestCaseSettingList.cs" Line="84">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ErrorText.get() : string" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\TestCaseSettingList.cs" Line="91">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="91" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ErrorText.set(string) : void" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\TestCaseSettingList.cs" Line="95">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ImageURL.get() : string" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\TestCaseSettingList.cs" Line="102">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="91" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ImageURL.set(string) : void" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\TestCaseSettingList.cs" Line="106">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="TestCaseId.get() : string" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\TestCaseSettingList.cs" Line="113">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="91" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="TestCaseId.set(string) : void" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\TestCaseSettingList.cs" Line="117">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="BtnValue.get() : string" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\TestCaseSettingList.cs" Line="124">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="91" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="BtnValue.set(string) : void" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\TestCaseSettingList.cs" Line="128">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ElementType.get() : string" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\TestCaseSettingList.cs" Line="136">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="91" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ElementType.set(string) : void" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\TestCaseSettingList.cs" Line="140">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ChildLink.get() : string" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\TestCaseSettingList.cs" Line="148">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="91" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ChildLink.set(string) : void" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\TestCaseSettingList.cs" Line="152">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ErrorId.get() : string" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\TestCaseSettingList.cs" Line="160">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="91" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ErrorId.set(string) : void" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\TestCaseSettingList.cs" Line="164">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="AssertValue.get() : string" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\TestCaseSettingList.cs" Line="172">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="91" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="AssertValue.set(string) : void" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\TestCaseSettingList.cs" Line="176">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ModuleName.get() : string" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\TestCaseSettingList.cs" Line="184">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="91" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ModuleName.set(string) : void" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\TestCaseSettingList.cs" Line="188">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="95" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="TestCaseSettingList()" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\TestCaseSettingList.cs" Line="16">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="73" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="5" />
+                      </Metrics>
+                    </Member>
+                  </Members>
+                </Type>
+                <Type Name="WebAccessTestCasesWithMultipleBrowsers&lt;TWebDriver&gt;">
+                  <Metrics>
+                    <Metric Name="MaintainabilityIndex" Value="42" />
+                    <Metric Name="CyclomaticComplexity" Value="83" />
+                    <Metric Name="ClassCoupling" Value="46" />
+                    <Metric Name="DepthOfInheritance" Value="1" />
+                    <Metric Name="LinesOfCode" Value="204" />
+                  </Metrics>
+                  <Members>
+                    <Member Name="TestCase() : void" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\WebUnitTest.cs" Line="37">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="29" />
+                        <Metric Name="CyclomaticComplexity" Value="23" />
+                        <Metric Name="ClassCoupling" Value="31" />
+                        <Metric Name="LinesOfCode" Value="88" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="ReturnWebElement(string) : IWebElement" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\WebUnitTest.cs" Line="207">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="42" />
+                        <Metric Name="CyclomaticComplexity" Value="22" />
+                        <Metric Name="ClassCoupling" Value="8" />
+                        <Metric Name="LinesOfCode" Value="33" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="PerformActionOnElement(IWebElement, string) : bool" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\WebUnitTest.cs" Line="253">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="32" />
+                        <Metric Name="CyclomaticComplexity" Value="32" />
+                        <Metric Name="ClassCoupling" Value="14" />
+                        <Metric Name="LinesOfCode" Value="71" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="CheckAssertValue(string) : bool" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\WebUnitTest.cs" Line="375">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="62" />
+                        <Metric Name="CyclomaticComplexity" Value="4" />
+                        <Metric Name="ClassCoupling" Value="8" />
+                        <Metric Name="LinesOfCode" Value="9" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="WebAccessTestCasesWithMultipleBrowsers()">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="100" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="0" />
+                        <Metric Name="LinesOfCode" Value="1" />
+                      </Metrics>
+                    </Member>
+                    <Member Name="WebAccessTestCasesWithMultipleBrowsers()" File="d:\David\Projects\Development\Testing\AutomationTesting\SourceCode\AutomateTesting\WebUnitTest.cs" Line="26">
+                      <Metrics>
+                        <Metric Name="MaintainabilityIndex" Value="81" />
+                        <Metric Name="CyclomaticComplexity" Value="1" />
+                        <Metric Name="ClassCoupling" Value="2" />
+                        <Metric Name="LinesOfCode" Value="2" />
+                      </Metrics>
+                    </Member>
+                  </Members>
+                </Type>
+              </Types>
+            </Namespace>
+          </Namespaces>
+        </Module>
+      </Modules>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

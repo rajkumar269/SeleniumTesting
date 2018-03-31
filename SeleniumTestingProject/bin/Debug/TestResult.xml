@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="D:\David\Projects\Development\GPPJenkins\SeleniumWebApplicationTesting\SeleniumTestingProject\bin\Debug\AutomateTesting.nunit" total="10" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-10-07" time="15:52:59">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.5485" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.4\bin" machine-name="D01TMC031" user="Davidrajkumar.J" user-domain="DSRCDC" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Project" name="D:\David\Projects\Development\GPPJenkins\SeleniumWebApplicationTesting\SeleniumTestingProject\bin\Debug\AutomateTesting.nunit" executed="True" result="Success" success="True" time="0.021" asserts="0">
+    <results>
+      <test-suite type="Assembly" name="D:\David\Projects\Development\NopCommerce\Zenith\Tests\Nop.Core.Tests\bin\Debug\Nop.Core.Tests.dll" executed="True" result="Success" success="True" time="0.020" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Nop" executed="True" result="Success" success="True" time="0.020" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Core" executed="True" result="Success" success="True" time="0.019" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="0.019" asserts="0">
+                    <results>
+                      <test-suite type="Namespace" name="Caching" executed="True" result="Success" success="True" time="0.004" asserts="0">
+                        <results>
+                          <test-suite type="TestFixture" name="MemoryCacheManagerTests" executed="True" result="Success" success="True" time="0.004" asserts="0">
+                            <results>
+                              <test-case name="Nop.Core.Tests.Caching.MemoryCacheManagerTests.Can_clear_cache" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                              <test-case name="Nop.Core.Tests.Caching.MemoryCacheManagerTests.Can_set_and_get_object_from_cache" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                              <test-case name="Nop.Core.Tests.Caching.MemoryCacheManagerTests.Can_validate_whetherobject_is_cached" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="CommonHelperEmailValidatorTests" executed="True" result="Success" success="True" time="0.011" asserts="0">
+                        <results>
+                          <test-case name="Nop.Core.Tests.CommonHelperEmailValidatorTests.This_should_not_hang" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                          <test-case name="Nop.Core.Tests.CommonHelperEmailValidatorTests.When_email_address_contains_upper_cases_then_the_validator_should_pass" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                          <test-case name="Nop.Core.Tests.CommonHelperEmailValidatorTests.When_the_text_is_a_valid_email_address_including_plus_validator_should_pass" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                          <test-case name="Nop.Core.Tests.CommonHelperEmailValidatorTests.When_the_text_is_a_valid_email_address_then_the_validator_should_pass" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                          <test-case name="Nop.Core.Tests.CommonHelperEmailValidatorTests.When_the_text_is_empty_then_the_validator_should_fail" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                          <test-case name="Nop.Core.Tests.CommonHelperEmailValidatorTests.When_the_text_is_not_a_valid_email_address_then_the_validator_should_fail" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                          <test-case name="Nop.Core.Tests.CommonHelperEmailValidatorTests.When_the_text_is_null_then_the_validator_should_fail" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
